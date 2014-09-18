@@ -1,0 +1,45 @@
+/* Global Rules */
+html{background-color:#fff;}
+#container{border:0px;}
+#logo{visibility:hidden; display:none;}
+#header{visibility:hidden; display:none;}
+.buttons{text-align:center;}
+
+
+/* Typography */
+.wufoo .section h3{font-size:110%;font-family:inherit;color:#ffffff}
+.wufoo .section div{font-size:85%;font-family:inherit;color:#ffffff}
+.wufoo label.desc{font-size:95%;font-family:inherit;color:#ffffff}
+.wufoo input.text {width:100%;}
+.wufoo li div, .wufoo li div label, .wufoo li span label, .wufoo .symbol{font-family:inherit;color:#ffffff}
+.wufoo input.text, .wufoo textarea.textarea, .wufoo select.select, .wufoo label.choice{font-size:100%;font-family:inherit;color:#000000;}
+.wufoo label.choice{color:#ffffff}
+.wufoo .instruct{font-size:80%;font-family:inherit;color:#444444}
+
+.wufoo input.text, .wufoo textarea.textarea{border:0px;}
+.wufoo li.focused {background-color:#4F4F4F;}
+.wufoo li.instruct{background-color:#4F4F4F;}
+.wufoo li.focused label.desc {color:#ffffff;}
+.wufoo .confirm h2 {color:#BFBFBF;}
+.wufoo .error {font-size:10px; font-weight:normal;}
+
+
+/* Used on Interactive User Signup Form */
+#form147 #Field1, #form147 #Field2 {width:185px;}
+
+/* Used on Contact Us */
+#form127 #Field1, #form127 #Field2 {width:185px;}
+
+/* Used on Interactive Builder Request a Quote */
+#form126 #Field15, #form126 #Field16 {width:185px;}
+
+/* Used on New Homes Available Sign-Up */
+#form152 {width:450px; display:block; margin:0 auto;}
+#form152 #Field1, #form152 #Field2 {width:195px;}
+#form152 #Field3 {width:400px;}
+#form152 #Field5 {width:400px;}
+#form152 li.focused legend.desc {color:#ffffff;}
+#form152 label.desc, #form152 legend.desc {color:#ffffff;}
+
+
+

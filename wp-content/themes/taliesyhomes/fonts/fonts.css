@@ -1,0 +1,6 @@
+@font-face {
+	font-family: 'CartoGothicStdBook';
+	src: url('CartoGothicStd-Book.eot');
+	src: local('CartoGothic Std'), local('CartoGothicStd-Book'), url('CartoGothicStd-Book.woff') format('woff'), url('CartoGothicStd-Book.otf') format('opentype'), url('CartoGothicStd-Book.svg#CartoGothicStd-Book') format('svg');
+}
+
