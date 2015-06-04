@@ -1,4 +1,14 @@
 <?php
+add_action('init','custom_login');
+
+function custom_login(){
+ global $pagenow;
+ if( 'wp-login.php' == $pagenow ) {
+  wp_redirect('/?s=wp-admin');
+  exit();
+ }
+}
+
 // Wordpress: This theme uses wp_nav_menu() in one location.
 register_nav_menus( array('primary' => 'Primary Navigation') );
 
